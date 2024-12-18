@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ons Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="./images/moi.jpg">
+                <h1>Ons Yangui</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="contact.html"><i class="fas fa-address-book"></i>Contact</a></li>
+                <li><a href="projet.html"><i class="fas fa-folder"></i>Projet</a></li>
+                <li><a href="parcours.html"><i class="fas fa-file"></i>Parcours</a></li>
+                <li><a href="competences.html"><i class="fas fa-briefcase"></i>Compétences</a></li>
+                <li><a href="stage.html"><i class="fas fa-cogs"></i>Stages</a></li>
+                <li><a href="quiz.html"><i class="fas fa-question-circle"></i>Quiz</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.facebook.com/yangui.ons?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/ons_yangui?igsh=MTk5cTIwaXJ3bDBocQ=="><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.snapchat.com/add/onsyangui22?share_id=RgeD_eOI5sM&locale=fr-FR"><i
+                        class="fab fa-snapchat"></i></a>
+                <a href="https://www.linkedin.com/in/ons-yangui-6b6731286/"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="container2">
+                <h1>Contact</h1><br>
+
+                <div class="profile-section">
+                    <img src="./images/moi2.jpeg" alt="Profile" class="photo">
+                    <div class="profile-text">
+                        <p><strong>Date de naissance :</strong> 29/08/2002</p>
+                        <p><strong>Téléphone :</strong> +216 50 884 244</p>
+                        <p><strong>Ville :</strong> Tunisie, Sfax</p>
+                        <p><strong>Adresse :</strong> Route Saltnia km 3 N°66 rue 5004 , Sfax</p>
+                        <p><strong>Degrée :</strong> Ingénierie </p>
+                        <p><strong>Email :</strong> onsyangui988@gmail.com</p>
+                    </div>
+                </div>
+            </div><br>
+            <div class="row gy-4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.1010400289466!2d10.730000!3d34.750000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13002cba00000000%3A0x0000000000000000!2sRoute%20Saltnia%20km%203%20N%C2%B066%20rue%205004%2C%20Sfax!5e0!3m2!1sen!2stn!4v1702761261000!5m2!1sen!2stn"
+                    width="100%" height="270" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+                <div class="col-lg-7">
+                    <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+                        data-aos-delay="200">
+
+                        <div class="col-md-6">
+                            <label for="name-field" class="pb-2">Nom</label>
+                            <input type="text" name="name" id="name-field" class="form-control" required="">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="email-field" class="pb-2">Email</label>
+                            <input type="email" class="form-control" name="email" id="email-field" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="subject-field" class="pb-2">Sujet</label>
+                            <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="message-field" class="pb-2">Message</label>
+                            <textarea class="form-control" name="message" rows="10" id="message-field"
+                                required=""></textarea>
+                        </div>
+
+                        <div class="col-md-12 text-center">
+                            <button type="submit">Envoyer un message</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
